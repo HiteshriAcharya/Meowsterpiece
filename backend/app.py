@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from backend.openai_assistant import send_message
+from openai_assistant import send_message
 
 app = Flask(__name__)
 
